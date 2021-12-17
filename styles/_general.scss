@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'MedievalSharp';
+}
+
+body {
+    // background-color: #e5e5f7;
+    background-image:  linear-gradient(#8f6542 2.2px, transparent 2.2px), linear-gradient(90deg, #8f6542 2.2px, transparent 2.2px), linear-gradient(#8f6542 1.1px, transparent 1.1px), linear-gradient(90deg, #8f6542 1.1px, #e5e5f7 1.1px);
+    background-size: 55px 55px, 55px 55px, 11px 11px, 11px 11px;
+    background-position: -2.2px -2.2px, -2.2px -2.2px, -1.1px -1.1px, -1.1px -1.1px;
+    // opacity: 0.4;
+}
+
+.container {
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.char-status {
+    div {
+        background: #e5e5f7;
+        display: flex;
+        border: 7px groove #BF8152;
+        padding: 10px;
+        
+        h3 {
+            margin-right: 10px;
+        }
+    }
+
+    .habilities {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .sub-box {
+        div {
+            border: none;
+        }
+    }
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: -140px;
+    background: #e5e5f7;
+    
+
+    div {
+        border: 7px groove #BF8152;
+        padding: 10px;
+        margin: 5px;
+
+        .item {
+            background: gray;
+            height: 200px;
+            width: 400px;
+        }
+    }
+}
+
+.stats {
+    border: 7px groove #BF8152;
+    padding: 10px;
+    background: #e5e5f7;
+
+    div {
+        border: 7px groove #BF8152;
+        padding: 10px;
+        margin-top: 10px;
+    }
+
+    .version {
+        display: flex;
+        justify-content: end;
+    }
+
+    .points {
+        margin-top: 10px;
+        display: flex;
+
+        div {
+            border: none;
+        }
+
+        .data1 {
+            display: flex;
+            flex-direction: column;
+            
+            i {
+                margin-bottom: 7px;
+            }
+        }
+        .data2 {
+            display: flex;
+            flex-direction: column;
+            
+            p {
+                margin-bottom: 5px;
+            }
+        }
+    }
+}
+
